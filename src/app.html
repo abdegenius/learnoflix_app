@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./public/css/app.css"/>
+		<link rel="stylesheet" href="./public/css/plyr.css"/>
+		<link rel="stylesheet" href="./public/css/slick.min.css"/>
+		<link rel="stylesheet" href="./public/css/slick-theme.min.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Playfair Display SC' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+		%svelte.head%
+	</head>
+	<body>
+		<div id="svelte">%svelte.body%</div>
+		<script src="./public/js/jquery.min.js"></script>
+		<script src="./public/js/jquery-migrate.min.js"></script>
+		<script src="./public/js/all.min.js"></script>
+		<script src="./public/js/plyr.js"></script>
+		<script src="./public/js/slick.min.js"></script>
+		<script>
+			const player = new Plyr('#player');
+		</script>
+	</body>
+</html>
